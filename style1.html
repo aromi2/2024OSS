@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: 100% Lucida Sans, Vardana;
+            margin: 20px;
+            line-height: 26px;
+        }
+        .wrapper{
+            position: relative;
+            overflow: auto;
+        }
+        #welcome_title{
+            background-color: #04AA6D;
+            margin: 4px;
+            padding: 15px;
+            border-radius: 4px;
+            color: #FFFFFF;
+        }
+        #welcome_title h1, #welcome_title p{
+            margin: 0;
+            padding: 0;
+        }
+        .menuItem{
+            margin: 4px;
+            padding: 2px;
+            background-color: #F1F1F1;
+            border-radius: 4px;
+            list-style-type: none;
+            border: 1px solid #D4d4d4;
+            cursor: pointer;
+        }
+        #menuBar{
+            float: left;
+            width: 200px;
+        }
+        #menuList{
+            margin: 0;
+            padding: 0;
+        }
+        #menu_Stylesheet{
+            background-color: #04AA6D;
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+        #main{
+            margin: 0px 210px;
+            padding: 10px;
+        }
+        #sideBar{
+            background-color: #32a4e7;
+            color: #FFFFFF;
+            margin: 4px;
+            padding: 10px;
+            border-radius: 4px;
+            width: 180px;
+            bottom: 0;
+            top: 0;
+            right: 0;
+            position: absolute;
+        }
+        #bottom{
+            margin: 4px;
+            padding: 10px;
+            background-color: #F1F1F1;
+            text-align: center;
+            border-radius: 4px;
+            font-size: 70%;
+            line-height: 14px;
+            border: 1px solid #D4d4d4;
+        }
+        .menuItem:hover{
+            background-color: #FFFFFF;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container wrapper">
+        <div id="welcome_title">
+            <h1>Welcome to 이은혜's Homepage(22200569)</h1>
+            <p>Use the menu to select different Stylesheets</p>
+        </div>
+
+        <div class="wrapper">
+            <div id="menuBar">
+                <ul id="menuList">
+                    <li id = "menu_Stylesheet" class="menuItem">Stylesheet 1</li>
+                    <li class="menuItem">Stylesheet 2</li>
+                    <li class="menuItem">Stylesheet 3</li>
+                    <li class="menuItem">Stylesheet 4</li>
+                    <li class="menuItem">No Stylesheet</li>
+                </ul>
+            </div>
+            <div id="main">
+                <h1>Same Page Different Stylesheets</h1>
+                <p>
+                    This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+                    <br>
+                    <a href="style1.html" >Stylesheet1</a>, <a href="style2.html" >Stylesheet2</a>, <a href="style3.html" >Stylesheet3</a>, <a href="style4.html" >Stylesheet4</a>.
+                </p>
+                <h2>No Styles</h2>
+                <p>
+                    This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:
+                    <br>
+                    <a href="index.html"> No Stylesheet</a>.
+                </p>
+            </div>
+            <div id="sideBar">
+                <h3>Side-Bar</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                </p>
+            </div>
+        </div>
+        <div id="bottom">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  
+        </div>
+    </div>
+    
+    
+</body>
+</html>

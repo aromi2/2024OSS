@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #d14836;
+            font-family: Arial;
+            line-height: 20px;
+        }
+        #welcome_title{
+            padding: 15px;
+            line-height: 26px;
+            color: #FFFFFF;
+            font-size: 30px;
+        }
+        #welcome_title h1{
+            margin: 0;
+            line-height: 50px;
+        }
+        #main{
+            font: 80% Verdana;
+            padding: 10px;
+            background-color: #FFFFFF;
+        }
+        #main h1, #main h2{
+            color:#d14836;
+        }
+        a{
+            color: #d14836;
+        }
+        #menuBar{
+            float: right;
+            width: 190px;
+        }
+        #menuList{
+            padding: 0;
+            font: 16px Verdana;
+        }
+        .menuItem{
+            list-style-type: none;
+            margin: 10px;
+            padding: 5px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #d14836;
+            border: 1px solid #d14836;
+            border-radius: 40px;
+            color: #FFFFFF;
+            width: 155px;
+        }
+        #menu_Stylesheet{
+            background-color: #FFFFFF;
+            color:#d14836;
+            font-weight: bold;
+        }
+        .menuItem:hover{
+            background-color: #FFFFFF;
+            color:#d14836;
+        }
+        #sideBar{
+            background-color: #f6dad7;
+            color:#d14836;
+            padding: 10px;
+        }
+        #bottom{
+            text-align: center;
+            font-size: 70%;
+            padding: 10px;
+            color: #FFFFFF;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container wrapper">
+        <div id="welcome_title">
+            <h1>Welcome to 이은혜's Homepage(22200569)</h1>
+            <p>Use the menu to select different Stylesheets</p>
+        </div>
+
+        <div class="wrapper">
+            <div id="menuBar">
+                <ul id="menuList">
+                    <li class="menuItem">Stylesheet 1</li>
+                    <li id = "menu_Stylesheet" class="menuItem">Stylesheet 2</li>
+                    <li class="menuItem">Stylesheet 3</li>
+                    <li class="menuItem">Stylesheet 4</li>
+                    <li class="menuItem">No Stylesheet</li>
+                </ul>
+            </div>
+            <div id="main">
+                <h1>Same Page Different Stylesheets</h1>
+                <p>
+                    This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+                    <br>
+                    <a href="style1.html" >Stylesheet1</a>, <a href="style2.html" >Stylesheet2</a>, <a href="style3.html" >Stylesheet3</a>, <a href="style4.html" >Stylesheet4</a>.
+                </p>
+                <h2>No Styles</h2>
+                <p>
+                    This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:
+                    <br>
+                    <a href="index.html"> No Stylesheet</a>.
+                </p>
+            </div>
+            <div id="sideBar">
+                <h3>Side-Bar</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                </p>
+            </div>
+        </div>
+        <div id="bottom">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  
+        </div>
+    </div>
+    
+    
+</body>
+</html>
